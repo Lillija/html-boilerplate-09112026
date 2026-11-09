@@ -265,3 +265,26 @@ form input{
         margin-right: 0;
     }
 }
+
+.block{
+    display: block;
+    width: 180px;
+    height: 80px;
+    margin: 10px;
+    background: #4a90e2;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+}
+
+.inline{
+    display: inline;
+    width: 200px;
+    height: 80px;
+    margin: 10px;
+    background: #e94e77;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+    border: 1px solid #535353;
+}
