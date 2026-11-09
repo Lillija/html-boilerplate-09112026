@@ -288,3 +288,31 @@ form input{
     text-align: center;
     border: 1px solid #535353;
 }
+
+.inline-block{
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    margin: 10px;
+    background: #55efc4;
+    color: #222;
+    line-height: 80px;
+    text-align: center;
+}
+
+.ib-atstarpe{
+    margin-left: 30px;
+}
+
+.ib-tall{
+    height: 120px;
+    line-height: 120px;
+}
+
+.ib-augsa{
+    vertical-align: top;
+}
+
+.ib-apaksa{
+    vertical-align: bottom;
+}
