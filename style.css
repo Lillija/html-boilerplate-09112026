@@ -82,3 +82,22 @@ form input{
     color: #fff;
     padding: 6px;
 }
+
+.quote{
+    position: relative;
+    border-left: 3px solid #adacac;
+    padding-left: 50px;
+    margin: 30px;
+    font-style: italic;
+    color: #444;
+}
+
+.quote::before{
+    content: "“";
+    font-size: 60px;
+    font-style: italic;
+    color: #b5b5b5;
+    position: absolute;
+    top: -15px;
+    left: 8px;
+}
