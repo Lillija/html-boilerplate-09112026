@@ -230,3 +230,38 @@ form input{
     z-index: 3;
     background-color: #1a6fd4;
 }
+
+.layout{
+    position: relative;
+    min-height: 250px;
+    margin: 10px;
+    border: 1px solid #535353;
+}
+
+.sidebar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 180px;
+    background-color: #5c6bc0;
+    color: #fff;
+    padding: 15px;
+}
+
+.saturs{
+    margin-right: 210px;
+    padding: 15px;
+}
+
+@media screen and (max-width: 600px){
+    .sidebar{
+        position: static;
+        width: auto;
+        height: auto;
+    }
+
+    .saturs{
+        margin-right: 0;
+    }
+}
