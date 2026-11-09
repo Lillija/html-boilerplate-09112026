@@ -412,3 +412,43 @@ form input{
         gap: 16px;
     }
 }
+
+.lapas-nav{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.lapas-nav a{
+    padding: 8px 18px;
+    text-decoration: none;
+    border: 1px solid #eeeeee;
+    border-radius: 20px;
+    color: #eeeeee;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.lapas-nav a:hover{
+    background: #eeeeee;
+    color: #000000;
+}
+
+.lapas-nav a.sakums.aktivs{
+    background: #9cc9dd;
+    border-color: #9cc9dd;
+    color: #000000;
+}
+
+.lapas-nav a.pozicijas.aktivs{
+    background: #e8d9af;
+    border-color: #e8d9af;
+    color: #000000;
+}
+
+.lapas-nav a.display.aktivs{
+    background: #ac1c1c;
+    border-color: #ac1c1c;
+    color: #eeeeee;
+}
