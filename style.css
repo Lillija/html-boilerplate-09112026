@@ -1,3 +1,12 @@
+body{
+    background-color: #000000;
+    color: #eeeeee;
+}
+
+a{
+    color: #9cc9dd;
+}
+
 .uzdevums{
     margin-bottom:50px;
 }
@@ -45,7 +54,7 @@ form input{
 
 .menu a{
     text-decoration: none;
-    color: #333;
+    color: #eeeeee;
 }
 
 .menu a:hover{
@@ -56,6 +65,10 @@ form input{
 .menu li.active{
     background-color: #d9ecff;
     padding: 5px 10px;
+}
+
+.menu li.active a{
+    color: #000000;
 }
 
 .gallery > h3{
@@ -89,7 +102,7 @@ form input{
     padding-left: 50px;
     margin: 30px;
     font-style: italic;
-    color: #444;
+    color: #eeeeee;
 }
 
 .quote::before{
