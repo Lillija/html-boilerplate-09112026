@@ -120,3 +120,17 @@ form input{
 .nav-links a:hover{
     color: #1a6fd4;
 }
+
+.box{
+    background-color: #1a6fd4;
+    color: #fff;
+    width: 120px;
+    height: 80px;
+    margin: 10px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.box-otrs{
+    background-color: #d9534f;
+}
