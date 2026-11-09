@@ -1,0 +1,19 @@
+.uzdevums{
+    margin-bottom:50px;
+}
+#produkta-kartite{
+    background-color: #adacac;
+    border: 1px solid #535353;
+    padding: 16px;
+}
+
+.kartites-virsraksts{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.kartites-teksts{
+    line-height: 1.4;
+    color: #6b6b6b;
+}
