@@ -57,3 +57,28 @@ form input{
     background-color: #d9ecff;
     padding: 5px 10px;
 }
+
+.gallery > h3{
+    margin-bottom: 20px;
+}
+
+.gallery figure{
+    position: relative;
+    margin: 0;
+    width: 250px;
+}
+
+.gallery img{
+    width: 100%;
+    display: block;
+}
+
+.gallery figure figcaption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 6px;
+}
