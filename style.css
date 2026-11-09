@@ -376,3 +376,8 @@ form input{
     background: #ac1c1c;
     color: #eeeeee;
 }
+
+#hideMe{
+    border: 2px solid #ac1c1c;
+    padding: 2px;
+}
