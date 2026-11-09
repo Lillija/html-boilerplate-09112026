@@ -49,7 +49,7 @@ form input{
 }
 
 .menu a:hover{
-    color: #1a6fd4;
+    color: 	#9cc9dd;
     text-decoration: underline;
 }
 
@@ -107,7 +107,7 @@ form input{
     align-items: center;
     justify-content: space-between;
     padding: 15px 30px;
-    background-color: #e9e9e9;
+    background-color: 	#eeeeee;
 }
 
 .nav-links a{
@@ -118,12 +118,12 @@ form input{
 }
 
 .nav-links a:hover{
-    color: #1a6fd4;
+    color: 	#9cc9dd;
 }
 
 .box{
-    background-color: #1a6fd4;
-    color: #fff;
+    background-color: 	#9cc9dd;
+    color: 	#eeeeee;
     width: 120px;
     height: 80px;
     margin: 10px;
@@ -132,7 +132,7 @@ form input{
 }
 
 .box-otrs{
-    background-color: #d9534f;
+    background-color: #ac1c1c;
 }
 
 .relative{
@@ -169,8 +169,8 @@ form input{
     left: 0;
     right: 0;
     z-index: 10;
-    background-color: #2e7d32;
-    color: #fff;
+    background-color: #2e7d7d;
+    color: #eeeeee;
     padding: 15px;
     text-align: center;
 }
@@ -178,8 +178,8 @@ form input{
 .sticky-header{
     position: sticky;
     top: 0;
-    background-color: #5c6bc0;
-    color: #fff;
+    background-color: #9cc9dd;
+    color: 	#eeeeee;
     padding: 10px;
     font-weight: bold;
 }
@@ -187,7 +187,7 @@ form input{
 .sticky-header-2{
     position: sticky;
     top: 50px;
-    background-color: #00897b;
+    background-color: #59727c;
     color: #fff;
     padding: 10px;
     font-weight: bold;
@@ -214,21 +214,21 @@ form input{
     top: 0;
     left: 0;
     z-index: 1;
-    background-color: #d9534f;
+    background-color: #ac1c1c;
 }
 
 .layer-zals{
     top: 60px;
     left: 60px;
     z-index: 2;
-    background-color: #2e7d32;
+    background-color: #59727c;
 }
 
 .layer-zils{
     top: 120px;
     left: 120px;
     z-index: 3;
-    background-color: #1a6fd4;
+    background-color: #9cc9dd;
 }
 
 .layout{
@@ -244,7 +244,7 @@ form input{
     right: 0;
     bottom: 0;
     width: 180px;
-    background-color: #5c6bc0;
+    background-color: #2e5e72;
     color: #fff;
     padding: 15px;
 }
