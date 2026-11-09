@@ -17,3 +17,18 @@
     line-height: 1.4;
     color: #6b6b6b;
 }
+
+form{
+    text-align: center;
+    border: 1px solid #535353;
+    border-radius: 12px;
+    padding: 20px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+form input{
+    width: 250px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
