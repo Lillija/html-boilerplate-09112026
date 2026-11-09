@@ -341,3 +341,22 @@ form input{
 .flex-kolonna{
     flex-direction: column;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 1fr 2fr;
+    grid-auto-rows: 80px;
+    gap: 10px;
+    background: #fafafa;
+    padding: 10px;
+}
+
+.grid-item{
+    background: #ffeaa7;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-item-6{
+    grid-column: 2 / span 2;
+}
